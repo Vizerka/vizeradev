@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vizera - portfolio</title>
+  <meta name="description" content="Portfolio Vizery - IT support, sprzęt, automatyzacja i projekty techniczne.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="border-bottom border-secondary-subtle sticky-top site-header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold brand-name" href="#start">Wiktoria "Vizera" Kowalska</a>
+
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Przełącz nawigację"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#about">o mnie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#work">doświadczenie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">projekty</a></li>
+            <li class="nav-item"><a class="nav-link" href="#stack">kompetencje</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="start">
+    <section class="hero-section py-5 py-lg-6">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-start">
+          <div class="col-lg-8">
+            <p class="section-label mb-3">portfolio</p>
+
+            <h1 class="display-4 fw-bold lh-1 mb-4 hero-title">
+              Wiktoria "Vizera" Kowalska
+            </h1>
+
+            <p class="lead hero-lead mb-4">
+              Pracuję na styku IT, sprzętu, systemów, self-hostingu i projektów technicznych.
+              Lubię rozwiązywać realne problemy zamiast produkować prezentacje o rozwiązywaniu problemów.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-light btn-lg rounded-pill px-4" href="#contact">
+                kontakt
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center gap-2 mb-4 text-secondary-custom fw-semibold">
+                  <span class="status-dot"></span>
+                  <span>otwarta na współpracę</span>
+                </div>
+
+                <div class="mb-4">
+                  <p class="mb-2 section-title">obszary</p>
+                  <ul class="mb-0 ps-3 side-list">
+                    <li>IT support</li>
+                    <li>Linux / Windows</li>
+                    <li>sieci</li>
+                    <li>hardware</li>
+                    <li>event management</li>
+                    <li>automotive</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <p class="mb-2 section-title">lokalizacja</p>
+                  <p class="mb-0 text-secondary-custom">Polska</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9">
+            <p class="section-label mb-3">o mnie</p>
+            <h2 class="section-title mb-4">
+              Techniczne zaplecze, praktyczne podejście i mała tolerancja na źle działające rzeczy
+            </h2>
+
+            <div class="content-box">
+              <p>
+                Mam doświadczenie we wsparciu użytkowników, konfiguracji stanowisk, diagnostyce sprzętu
+                i codziennym ogarnianiu problemów technicznych. Poza tym robię własne projekty - od stron
+                i automatyzacji po rzeczy bardziej sprzętowe.
+              </p>
+
+              <p>
+                Nie zamykam się w jednej szufladzie. Dobrze czuję się zarówno przy systemach i skryptach,
+                jak i przy elektronice, prototypowaniu czy technicznych tematach poza czystym softwarem.
+              </p>
+
+              <p>
+                Szukam miejsca, w którym przydaje się samodzielność, szybkie uczenie i umiejętność łączenia
+                kilku dziedzin naraz.
+              </p>
+
+              <p class="mb-0">
+                Interesuję się także mechaniką pojazdową, szczególnie starszymi i klasycznymi autami.
+                Zajmuję się diagnostyką, naprawami oraz technicznym ogarnianiem rozwiązań mechanicznych,
+                co rozwija u mnie praktyczne podejście do problemów, dokładność i umiejętność pracy z realnymi układami technicznymi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="work">
+      <div class="container">
+        <p class="section-label mb-3">doświadczenie</p>
+        <h2 class="section-title mb-4">Co robiłam w praktyce</h2>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <span class="badge text-bg-primary-soft mb-3">wsparcie IT</span>
+                <h3 class="h5 mb-3 entry-title-color">Obsługa użytkowników i stanowisk komputerowych</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Wsparcie pracowników w bieżących problemach, konfiguracja komputerów i stanowisk pracy,
+                  utrzymanie sprzętu oraz pomoc przy systemach używanych w codziennej pracy biurowej.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <span class="badge text-bg-primary-soft mb-3">systemy i infrastruktura</span>
+                <h3 class="h5 mb-3 entry-title-color">Linux, Windows i własne środowiska self-hosted</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Konfiguracja i utrzymanie własnych usług, serwerów oraz narzędzi opartych o Linux.
+                  Praca z takimi rozwiązaniami jak Nextcloud, Samba, Proxmox czy Home Assistant.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <span class="badge text-bg-primary-soft mb-3">projekty własne</span>
+                <h3 class="h5 mb-3 entry-title-color">Łączenie software, hardware i technicznej praktyki</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Tworzę strony, automatyzacje, prototypy i rozwiązania, które mają po prostu działać.
+                  Interesują mnie też elektronika, druk 3D, diagnostyka i techniczne tematy poza biurem.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <span class="badge text-bg-primary-soft mb-3">wolontariat / działalność społeczna</span>
+                <h3 class="h5 mb-3 entry-title-color">Współpraca i działania organizacyjne w Stowarzyszeniu OwO</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Zaangażowanie w działania stowarzyszenia, współpraca przy organizacji inicjatyw i wydarzeń,
+                  wsparcie organizacyjne oraz koordynacja wybranych elementów projektów społecznościowych.
+                  Doświadczenie w pracy z ludźmi, komunikacji i dopinaniu rzeczy w praktyce.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <span class="badge text-bg-primary-soft mb-3">organizacja wydarzeń</span>
+                <h3 class="h5 mb-3 entry-title-color">Łódzka Przesiadka - wydarzenia dla fandomu furry</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Organizacja serii wydarzeń dla społeczności furry, obejmująca planowanie, koordynację i realizację różnych aspektów eventów.
+                  Doświadczenie w pracy z ludźmi, zarządzaniu projektami oraz dopinaniu rzeczy w praktyce.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <span class="badge text-bg-primary-soft mb-3">mechanika pojazdowa</span>
+                <h3 class="h5 mb-3 entry-title-color">Naprawy, diagnostyka i techniczne ogarnianie samochodów</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Praktyczne doświadczenie w naprawach i diagnostyce samochodów, szczególnie starszych i klasycznych modeli.
+                  Zajmuję się rozwiązywaniem problemów mechanicznych, elektrycznych oraz technicznym ogarnianiem układów pojazdów,
+                  co rozwija moje umiejętności praktyczne i techniczne poza światem IT.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="projects">
+      <div class="container">
+        <p class="section-label mb-3">projekty</p>
+        <h2 class="section-title mb-4">Wybrane rzeczy</h2>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <h3 class="h5 mb-3 entry-title-color">Self-hosting i serwer domowy</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Budowa i utrzymanie własnego domowego zaplecza serwerowego, konfiguracja usług takich jak Proxmox, Nextcloud,
+                  Home Assistant, Immich i innych. Projekty obejmują zarówno software'ową, jak i sprzętową stronę self-hostingu,
+                  łącząc umiejętności konfiguracji systemów, zarządzania serwerami oraz praktycznego rozwiązywania problemów technicznych
+                  związanych z utrzymaniem własnej infrastruktury.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <h3 class="h5 mb-3 entry-title-color">Smarthome i automatyzacje</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Projektowanie i implementacja rozwiązań smart home opartych o Home Assistant i ESPHome, obejmująca automatyzacje,
+                  integracje urządzeń oraz praktyczne zastosowania technologii w codziennym życiu. Projekty te łączą umiejętności programowania,
+                  konfiguracji systemów oraz praktycznego podejścia do rozwiązywania problemów technicznych związanych z inteligentnym domem.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <h3 class="h5 mb-3 entry-title-color">Projekty motoryzacyjne</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Naprawy mechaniczno-blacharskie oraz elektryczne w samochodach, szczególnie tych starszych i klasycznych.
+                  Swapy silników, diagnostyka problemów, tuning i inne rzeczy związane z technicznym ogarnianiem pojazdów.
+                  Obecny projekt to moja Jetta mk2 z 1989 roku, która dostała swap silnika na 1.9 TDI,
+                  a teraz jest w trakcie kolejnych przeróbek i napraw.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="card bg-panel border-panel h-100">
+              <div class="card-body p-4">
+                <h3 class="h5 mb-3 entry-title-color">Współpraca i działania organizacyjne w Stowarzyszeniu OwO</h3>
+                <p class="mb-0 text-secondary-custom">
+                  Zaangażowanie w projekty i inicjatywy stowarzyszenia, współpraca przy organizacji wydarzeń
+                  oraz wsparcie organizacyjne w działaniach społecznościowych.
+                  Obecny projekt to Łódzka Przesiadka - seria wydarzeń dla fandomu furry,
+                  które organizuję razem z ekipą Stowarzyszenia OwO.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="stack">
+      <div class="container">
+        <p class="section-label mb-3">kompetencje</p>
+        <h2 class="section-title mb-4">Technologie i narzędzia, z którymi pracuję</h2>
+
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge skill-badge">Linux</span>
+          <span class="badge skill-badge">Windows</span>
+          <span class="badge skill-badge">Python</span>
+          <span class="badge skill-badge">PowerShell</span>
+          <span class="badge skill-badge">HTML</span>
+          <span class="badge skill-badge">CSS</span>
+          <span class="badge skill-badge">Ubiquiti</span>
+          <span class="badge skill-badge">TCP/IP</span>
+          <span class="badge skill-badge">JavaScript</span>
+          <span class="badge skill-badge">Proxmox</span>
+          <span class="badge skill-badge">Nextcloud</span>
+          <span class="badge skill-badge">Samba</span>
+          <span class="badge skill-badge">Home Assistant</span>
+          <span class="badge skill-badge">Git</span>
+          <span class="badge skill-badge">Hardware</span>
+          <span class="badge skill-badge">Prawo jazdy kat. B</span>
+          <span class="badge skill-badge">Event Management</span>
+          <span class="badge skill-badge">3D Printing</span>
+          <span class="badge skill-badge">Mechanika Pojazdowa</span>
+          <span class="badge skill-badge">Spawanie MIG</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="contact">
+      <div class="container">
+        <div class="card bg-panel border-panel">
+          <div class="card-body p-4 p-lg-5">
+            <div class="row g-4 align-items-start">
+              <div class="col-lg-6">
+                <p class="section-label mb-3">kontakt</p>
+                <h2 class="section-title mb-0">Zainteresowała Cię moja osoba? Porozmawiajmy!</h2>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="d-grid gap-3">
+                  <a class="contact-link" href="mailto:vizerka@proxmox.me">vizerka@proxmox.me</a>
+                  <!-- <a class="contact-link" href="https://github.com/" target="_blank" rel="noopener"> github.com/</a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 border-top border-secondary-subtle">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 text-secondary-custom small">
+      <p class="mb-0">© <span id="year"></span> Wiktoria "Vizera" Kowalska</p>
+      <p class="mb-0">Nigdy nie wiem co wpisać w stopkę</p>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
